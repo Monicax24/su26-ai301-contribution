@@ -1,16 +1,16 @@
-# Contribution [#]: [Issue Title]
+# Contribution 1: HORRIBLE spelling mistake FOOLISH, BAD, SHAMEFUL
 
-**Contribution Number:** [1 / 2 / 3]  
-**Student:** [Your Name]  
-**Issue:** [GitHub issue link]  
-**Status:** [Phase I / Phase II / Phase III / Phase IV] [In Progress / Complete]
+**Contribution Number:** 1
+**Student:** Monica Gnajewski  
+**Issue:** https://github.com/BeeStation/BeeStation-Hornet/issues/14316 
+**Status:** Phase I Complete
 
 ---
 
 ## Why I Chose This Issue
 
-[1-2 paragraphs explaining why this issue interests you, how it matches your skills/learning goals, what you hope to learn]
-
+I chose this issue to get a good grasp of how to start contributing to an open source codebase. I thought it was simple enough to work on without feeling frustrated or defeated. I also thought it was suprising to see that these kind of simple errors happen in large-scale projects. 
+With my contribution, I hope to become more accustomed to working on a public codebase and collaborating with other maintainers. I beleive these skills would be relevant in the working field where you have to edit and remove bugs in code written by many different people.
 ---
 
 ## Understanding the Issue
