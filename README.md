@@ -11,6 +11,7 @@
 
 I chose this issue to get a good grasp of how to start contributing to an open source codebase. I thought it was simple enough to work on without feeling frustrated or defeated. I also thought it was suprising to see that these kind of simple errors happen in large-scale projects. 
 With my contribution, I hope to become more accustomed to working on a public codebase and collaborating with other maintainers. I beleive these skills would be relevant in the working field where you have to edit and remove bugs in code written by many different people.
+
 ---
 
 ## Understanding the Issue
