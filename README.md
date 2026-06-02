@@ -17,21 +17,16 @@ With my contribution, I hope to become more accustomed to working on a public co
 ## Understanding the Issue
 
 ### Problem Description
-
-[In your own words, what's broken or missing?]
+There is a small spelling error for the artifact midround spawn.
 
 ### Expected Behavior
-
-[What should happen?]
+Spelling should be Malevolent, not Maleviolent.
 
 ### Current Behavior
-
-[What actually happens?]
+Currently spelled as Maleviolent.
 
 ### Affected Components
-
-[Which parts of the codebase are involved?]
-
+The code for the artifact midround spawn.
 ---
 
 ## Reproduction Process
