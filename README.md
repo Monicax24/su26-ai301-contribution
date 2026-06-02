@@ -27,6 +27,7 @@ Currently spelled as Maleviolent.
 
 ### Affected Components
 The code for the artifact midround spawn.
+
 ---
 
 ## Reproduction Process
