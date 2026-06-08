@@ -1,15 +1,15 @@
-# Contribution 1: HORRIBLE spelling mistake FOOLISH, BAD, SHAMEFUL
+# Contribution 1: Create an Acknowledgements section for the README
 
 **Contribution Number:** 1
 **Student:** Monica Gnajewski  
-**Issue:** https://github.com/BeeStation/BeeStation-Hornet/issues/14316 
-**Status:** Phase I Complete
+**Issue:** https://github.com/InsightSoftwareConsortium/ITK/issues/454
+**Status:** Phase II Complete
 
 ---
 
 ## Why I Chose This Issue
 
-I chose this issue to get a good grasp of how to start contributing to an open source codebase. I thought it was simple enough to work on without feeling frustrated or defeated. I also thought it was suprising to see that these kind of simple errors happen in large-scale projects. 
+I chose this issue to get a good grasp of how to start contributing to an open source codebase. I thought it was simple enough to work on without feeling frustrated or defeated. I also thought it was suprising to see that these kind of simple requests happen in large-scale projects. 
 With my contribution, I hope to become more accustomed to working on a public codebase and collaborating with other maintainers. I beleive these skills would be relevant in the working field where you have to edit and remove bugs in code written by many different people.
 
 ---
@@ -17,16 +17,16 @@ With my contribution, I hope to become more accustomed to working on a public co
 ## Understanding the Issue
 
 ### Problem Description
-There is a small spelling error for the artifact midround spawn.
+The ITK README.md does not have a dedicated Acknowledgements section. The maintainer requested adding one to acknowledge organizations like the National Library of Medicine, grants, and other entities that have funded ITK development over the years.
 
 ### Expected Behavior
-Spelling should be Malevolent, not Maleviolent.
+The README contains a clearly labeled "Acknowledgements" section that consolidates and credits the project's funders and sponsoring organizations (e.g., the National Library of Medicine, relevant NIH grants, NumFOCUS, and the Insight Software Consortium).
 
 ### Current Behavior
-Currently spelled as Maleviolent.
+There is no standalone Acknowledgements section. Funding and sponsorship information is only mentioned in passing within the existing README prose (e.g., a brief note that ITK is fiscally sponsored by NumFOCUS), so the funders are not acknowledged in one clear, dedicated place.
 
 ### Affected Components
-The code for the artifact midround spawn.
+README.md in the ITK repository.
 
 ---
 
