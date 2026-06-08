@@ -33,51 +33,50 @@ README.md in the ITK repository.
 ## Reproduction Process
 
 ### Environment Setup
-
-[Notes on setting up your local development environment - challenges you faced, how you solved them]
+To set up my local environment, I had to fork the repo and clone my fork.
 
 ### Steps to Reproduce
-
-1. [Step 1]
-2. [Step 2]
-3. [Observed result]
+1. Open the current README.md on the main branch of InsightSoftwareConsortium/ITK.
+2. Search the file for an "Acknowledgements" heading.
+3. Notice no dedicated Acknowledgements section exists; funding/sponsor references appear only inline in the prose.
 
 ### Reproduction Evidence
 
-- **Commit showing reproduction:** [Link to commit in your fork]
-- **Screenshots/logs:** [If applicable]
-- **My findings:** [What you discovered during reproduction]
+- **Commit showing reproduction:** https://github.com/InsightSoftwareConsortium/ITK/commit/d4f2cfe34885ff2b5378d752cbf3958a41414e98
+- **My findings:** Found that there was no "Acknowledgements" section.
 
 ---
 
 ## Solution Approach
 
 ### Analysis
-
-[Your analysis of the root cause - what's causing the issue?]
+The root cause is that the section was never written. The maintainer and other contributors have pointed to source material in the issue thread (NLM project pages, ITK funding history, and NumFOCUS-related PRs), so the work is gathering that information and presenting it as a dedicated section.
 
 ### Proposed Solution
-
-[High-level description of your fix approach]
+Add a new Acknowledgements section near the bottom of README.md that credits the funding organizations and sponsors of ITK, drawing on the references linked in the issue discussion.
 
 ### Implementation Plan
+- Review the resources linked in issue #454 (NLM project pages, ITK funding history) and the nipype funding-acknowledgement section a maintainer cited as a model.
+- Identify the organizations and sponsors to credit: the National Library of Medicine, relevant NIH grants, NumFOCUS (fiscal sponsor), and the Insight Software Consortium.
+- Add a new ## Acknowledgements section near the bottom of README.md consolidating this information into one clear, readable section.
+- Verify the Markdown renders correctly and any links resolve.
+- Follow ITK's DOC: commit-message convention and contribution guidelines.
 
-Using UMPIRE framework (adapted):
+**Understand:** ITK's README lacks a dedicated section acknowledging its funders (NLM, grants, NumFOCUS, ISC); the goal is to add one.
 
-**Understand:** [Restate the problem]
+**Match:** There is an inline NumFOCUS sponsorship note already in the README, but no Acknowledgements section.
 
-**Match:** [What similar patterns/solutions exist in the codebase?]
 
-**Plan:** [Step-by-step implementation plan]
-1. [Modify file X to do Y]
-2. [Add function Z]
-3. [Update tests]
+**Plan:**
+1. Review the resources linked in issue #454 to identify the organizations and grants to credit.
+2. Draft an Acknowledgements section consolidating that information.
+3. Add the section to README.md and verify Markdown rendering.
 
 **Implement:** [Link to your branch/commits as you work]
 
-**Review:** [Self-review checklist - does it follow the project's contribution guidelines?]
+**Review:** I will make sure I am following the project's contribution guidelines.
 
-**Evaluate:** [How will you verify it works?]
+**Evaluate:** I will preview the rendered Markdown, and confirm links resolve.
 
 ---
 
