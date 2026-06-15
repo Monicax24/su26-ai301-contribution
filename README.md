@@ -81,39 +81,40 @@ Add a new Acknowledgements section near the bottom of README.md that credits the
 ---
 
 ## Testing Strategy
+This is a documentation-only contribution and changes no source code. ITK's automated test suite does not cover README prose, so validation is manual rather than test-driven.
 
 ### Unit Tests
-
-- [ ] Test case 1: [Description]
-- [ ] Test case 2: [Description]
-- [ ] Test case 3: [Description]
+N/A since no code paths are added or modified, so there is nothing for unit tests to exercise. 
 
 ### Integration Tests
-
-- [ ] Integration scenario 1
-- [ ] Integration scenario 2
+N/A since the change does not interact with any build, module, or runtime behavior.
 
 ### Manual Testing
 
-[What you tested manually and results]
+- **Markdown rendering:** Previewed `README.md` on GitHub (and locally) to confirm the new section renders correctly with proper heading level, paragraph breaks, and list formatting, and that it sits cleanly between the existing sections.
+- **Link verification:** Clicked every link in the new section to confirm each resolves and none returns a 404.
+- **Pre-commit hooks:** Ran ITK's pre-commit hooks, which check commit-message format and line length; the `DOC:` commit and the wrapped section body pass.
+- **Scoped diff:** Confirmed `git diff` touches only `README.md`, with no stray whitespace or unrelated changes.
 
 ---
 
 ## Implementation Notes
 
-### Week [X] Progress
-
-[What you built this week, challenges faced, decisions made]
-
-### Week [Y] Progress
-
-[Continue documenting as you work]
+### Week 2 Progress
+Researched ITK's funding history using the resources linked in issue #454 (the NLM project page, ITK's About/history pages) plus the founding-contract details from ITK's own documentation. Drafted and added a new `## Acknowledgements` section to `README.md` covering:
+- ITK's 1999 origin under a US National Library of Medicine (NLM) / NIH contract in support of the Visible Human Project, directed by NLM project manager Dr. Terry Yoo.
+- The six founding Insight Software Consortium contractors (GE Corporate R&D, Kitware, MathSoft/Insightful, UNC, the University of Tennessee, and UPenn).
+- Ongoing funding sources (predominantly NLM, plus other NIH institutes, the NSF, and the US Department of Defense TATRC).
+- ITK's current fiscal sponsorship by NumFOCUS.
 
 ### Code Changes
 
-- **Files modified:** [List]
-- **Key commits:** [Links to important commits]
-- **Approach decisions:** [Why you chose certain approaches]
+- **Files modified:** `README.md`
+- **Key commits:** [link]
+- **Approach decisions:**
+  - Placed the section after `## Professional Services` and before `## Citation` to group it with the other project/backer context.
+  - Acknowledged funders at the organization/agency level, consistent with what's verifiable from the sources in issue #454.
+  - Followed ITK's commit conventions.
 
 ---
 
